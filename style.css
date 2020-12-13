@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+}
+
+/* header and Navbar */
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 1rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.menu ul li a:hover {
+    color: gray;
+}
+
+.home{
+    color: #f9b006;
+}
+
+.home:hover {
+    color: #f7cb66;
+}
+
+.bar{
+    display: none;
+}
+
+.bar:hover {
+    background: #da9a06;
+}
+
+.header {
+    background-image: url(img/dontuss.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-title, .footer-text {
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+}
+
+.header-title:hover, .footer-text:hover {
+    color: #797878;
+}
+
+.header-texts {
+    padding-top: 5rem;
+}
+
+.visit-now-button {
+    margin-left: 17em;
+    border-radius: 1rem;
+    background: #f9b006;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 0 1rem 0 1rem;
+}
+
+.visit-now-button:hover{
+    background-color: #da9a06;
+}
+
+/* Gallery */
+
+.gallery {
+    background-image: url(img/cake.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 25em;
+    color: white;
+}
+
+.our-gallery {
+    background-color: #f9b006;
+}
+
+.see-more-button {
+    background-color: #2b2929;
+    color: #f9b006;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: 0 1rem 0 1rem;
+    margin-left: 10em;
+}
+
+.see-more-button:hover {
+    background-color: #131212;
+}
+
+/* Sections */
+
+.section-one {
+    background-color: #F5E1DA;
+    padding: 3rem 7rem;
+}
+
+.image-one {
+    background-image: url(img/croissant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 445px;
+}
+
+.section-one-button {
+    background-color: #F5E1DA; 
+    color: #464545;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    margin-left: 7em;
+}
+
+.section-one-button:hover {
+    background-color: #f7caba;
+    padding: 0 1rem 0 1rem;
+}
+
+.section-two {
+    background-color: #bdddea;
+    padding: 5rem;
+}
+
+
+.image-two {
+    background-image: url(img/cupcake.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 410px;
+}
+
+.section-two-button {
+    background-color: #bdddea; 
+    color: #464545;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    margin-left: 7em;
+}
+
+.section-two-button:hover{
+    background-color: #9ddcf5;
+    padding: 0 1rem 0 1rem;
+}
+
+.section-three {
+    background-color: #593E33;
+    padding: 3rem;
+}
+
+.image-three {
+    background-image: url(img/video.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.section-three-button {
+    background-color: #A6725D; 
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: 0 1rem 0 1rem;
+}
+
+.section-three-button:hover {
+    background-color: #a86950;
+}
+
+.kitchen{
+    background-color: #f9b006;
+    padding-right: 1rem;
+}
+
+
+/* Footer and footer buttons */
+
+.footer {
+    background-image: url(img/footer.jpg);
+    padding: 3rem;
+}
+
+.email {
+    width: 250px;
+    border: none;
+    padding: 0.2rem 1rem;
+}
+
+.submit {
+    width: 100px;
+    background-color: #3aa28c;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+}
+
+.submit:hover {
+    background-color: #318875;
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .header-h3-text{
+        font-size: 20px;
+    }
+
+    .gallery {
+        padding-top: 5rem;
+        padding-left: 10em;
+    }
+
+    .section-one, .section-two {
+        padding: 2rem;
+    }
+
+    .section-three {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .bar {
+        width: 40px;
+        height: 40px;
+        background-color: #f9b006;
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem;
+        margin-left: 10rem;     
+    }
+    
+    .menu ul li a {
+            display: none;
+    }
+
+    .gallery {
+        padding-top: 5em;
+        padding-left: 10em;
+    }
+
+    .section-one, .section-two {
+        padding: 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 414px) {
+    .bar {
+        width: 40px;
+        height: 40px;
+        background-color: #f9b006;
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem; 
+        margin-left: 6rem;       
+    }
+
+    .menu ul li a {
+            display: none;
+    }
+
+    .header-texts {
+        padding-top: 1rem;
+    }
+
+    .gallery {
+        padding-top: 5rem;
+        padding-left: 5rem;
+    }
+
+    .our {
+        font-size: 25px;
+    }
+
+    .visit-now-button, .see-more-button {
+        margin-left: 0;
+    }
+
+    .section-one, .section-two {
+        padding: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .bar {
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .bar {
+        margin-left: 3rem;
+    }
+    
+    .header-texts {
+        padding-top: 1rem;
+    }
+
+    .header-h3-text{
+        font-size: 18px;
+    }
+
+    .header-h1-text {
+        font-size: 25px;
+    }
+
+    .visit-now-button, .see-more-button {
+        margin-left: 0;
+    }
+
+    .gallery {
+        padding-top: 2em;
+        padding-left: 0;
+    }
+
+    .section-one, .section-two {
+        padding: 1rem;
+    }
+
+    .footer-paragraph {
+        font-size: 15px;
+    }
+    
+    .email {
+        width: 200px;
+    }
+}
